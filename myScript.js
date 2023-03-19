@@ -70,5 +70,5 @@ switch (month)
 
 var year = currentDate.getFullYear();
 var myString;
-myString = "Tänään on " + day +  "." + monthName + "." + year + ".<br />Current time is " + hours1 + ":" + mins + ":" + secs + " " + strToAppend + ".";
+myString = "Today is " + day +  "." + monthName + "." + year + "<br />Current time is " + hours1 + ":" + mins + ":" + secs + " " + strToAppend + ".";
 document.write(myString);
